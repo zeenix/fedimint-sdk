@@ -1,5 +1,12 @@
 # @fedimint/fedimint-client-wasm-bundler
 
+## 0.1.2
+
+### Patch Changes
+
+- b43a924: Added `federation.getMetaConsensusValue()` for reading federation metadata from the meta module
+- bdba63f: Add `federation.getEventLog()` for reading paginated persistent client event log entries
+
 ## 0.1.1
 
 ### Patch Changes

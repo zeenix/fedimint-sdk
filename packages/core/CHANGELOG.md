@@ -1,5 +1,27 @@
 # @fedimint/core
 
+## 0.2.0
+
+### Minor Changes
+
+- b43a924: Added `federation.getMetaConsensusValue()` for reading federation metadata from the meta module
+
+### Patch Changes
+
+- 299e79b: Normalize parsed OOB note federation ID prefixes to the documented hexadecimal string format.
+- 516e51b: - Initial Release of react-native for Fedimint-SDK
+  - Updated WalletDirector to Accept Path for react-native
+  - Bumped packages to match versions across the monorepo
+- bdba63f: Add `federation.getEventLog()` for reading paginated persistent client event log entries
+- 48288a9: patch: fix parseInviteCode, parseBolt11Invoice and previewFederation. - Added detailed type definitions for `PreviewFederation` including `JsonClientConfig` structure - Updated `PreviewFederation.config` to return properly typed `JsonClientConfig` instead of generic object - Added type definitions for `GlobalClientConfig`, `PeerUrl`, `CoreConsensusVersion`, and `ModuleConfig`
+- 69fdcb1: Added `forceRecover` support to `FedimintWallet.joinFederation()` through a backwards-compatible options object.
+- cf43f91: Added select_available_gateay rpc and use it for payments instead of list_gateways
+- 82a1863: Bump deps
+- 1744c92: Fix WalletService.subscribeDeposit to call the wallet module instead of ln
+- Updated dependencies [516e51b]
+- Updated dependencies [48288a9]
+  - @fedimint/types@0.0.4
+
 ## 0.1.3
 
 ### Patch Changes

@@ -1,5 +1,25 @@
 # @fedimint/transport-web
 
+## 1.0.0
+
+### Patch Changes
+
+- 516e51b: - Initial Release of react-native for Fedimint-SDK
+  - Updated WalletDirector to Accept Path for react-native
+  - Bumped packages to match versions across the monorepo
+- Updated dependencies [b43a924]
+- Updated dependencies [299e79b]
+- Updated dependencies [516e51b]
+- Updated dependencies [bdba63f]
+- Updated dependencies [48288a9]
+- Updated dependencies [69fdcb1]
+- Updated dependencies [cf43f91]
+- Updated dependencies [82a1863]
+- Updated dependencies [1744c92]
+  - @fedimint/core@0.2.0
+  - @fedimint/fedimint-client-wasm-bundler@0.1.2
+  - @fedimint/types@0.0.4
+
 ## 0.1.2
 
 ### Patch Changes
