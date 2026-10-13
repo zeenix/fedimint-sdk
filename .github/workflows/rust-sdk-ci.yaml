@@ -88,6 +88,9 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: 'Fail on purpose, for the probe'
+        run: exit 1
+
       - name: 'Checkout'
         uses: actions/checkout@v7
         with:
