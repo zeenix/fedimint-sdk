@@ -91,3 +91,5 @@ Used the [wagmi](https://github.com/wevm/wagmi) library as a reference for the r
 > `@fedimint/fedimint-client-wasm-web` and `create-fedimint-app`. Its source is in this
 > repository's history, for example at commit
 > [`e4c7c59`](https://github.com/fedimint/fedimint-sdk/tree/e4c7c59b526aa2cb6e85854efeeb44f6ceddf6b7/js).
+
+<!-- A line for a probe of the checks. It is not meant for any pull request upstream. -->
